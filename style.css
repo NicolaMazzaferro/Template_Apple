@@ -1,5 +1,4 @@
 body{
-    color: #6e6e73;
     font-size: smaller;
     font-family: 'Larsseit', sans-serif;
 }
@@ -84,7 +83,7 @@ nav{
 .macbookAir h2{
     font-size: 55px;
 }
-.macbookAir h3{
+h3{
     color: rgb(76, 76, 76);
 }
 .macbookAir h4{
@@ -93,7 +92,7 @@ nav{
 
 .learnOrder a{
     padding: 10px 20px 20px 20px;
-    font-size: 20px;
+    font-size: 17px;
     text-decoration: none;
     color: #06c;
 }
@@ -117,6 +116,53 @@ nav{
     font-size: 50px;
 }
 
+.macStudio{
+    background-image: url(./media/mac_studio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.macPro{
+    background-image: url(./media/mac_pro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.tradeIn{
+    background-image: url(./media/tradein.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.watch{
+    background-image: url(./media/watch.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.fitness{
+    background-image: url(./media/fitness.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.cardApple{
+    background-image: url(./media/card.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
 
 
 
