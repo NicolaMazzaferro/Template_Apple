@@ -164,6 +164,42 @@ h3{
     height: 70vh;
 }
 
+.bgFooter{
+    background-color: #ededed;
+}
+
+.textFooter{
+    color: rgb(86, 86, 86);
+    font-size: 12px;
+}
+
+.linkUtiliFooter li{
+    font-size: 12px;
+    list-style: none;
+    color: rgb(86, 86, 86);
+    padding: 5px;
+}
+
+.linkUtiliFooter h5{
+    font-size: 18px;
+    color: black;
+    
+}
+
+.moreWays{
+    color: rgb(86, 86, 86);
+}
+
+.privacyPolicy{
+    padding-right: 300px;
+}
+
+.privacyPolicy p{
+    padding-right: 10px;
+    border-right: 1px solid rgb(86, 86, 86);
+    padding-left: 10px;
+    color: rgb(86, 86, 86);
+}
 
 
 /* Media Query */
