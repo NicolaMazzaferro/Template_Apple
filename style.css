@@ -1,0 +1,130 @@
+body{
+    color: #6e6e73;
+    font-size: smaller;
+    font-family: 'Larsseit', sans-serif;
+}
+
+nav{
+    background-color: #ededed;
+}
+
+.itemNav{
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+
+.itemNav p{
+    
+    text-align: start;
+    margin-top: 20px;
+}
+
+.formSelect{
+    width: 380px;
+    padding-left: 40px;
+}
+
+.form-select{
+    border: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    width: 100px;
+}
+
+.secondaNav{
+    list-style: none;
+    height: 45px;
+}
+
+.secondaNav a, a:visited{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+.vision{
+    background-image: url(./media/hero_apple_vision_pro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+.vision img{
+    padding-bottom: 15px;
+}
+
+.vision a{
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+}
+
+.vision h1{
+    font-size: 25px;
+    font-family: 'Larsseit', sans-serif;
+}
+
+.macbookAir{
+    background-image: url(./media/hero_macbook_air_15.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.macbookAir h2{
+    font-size: 55px;
+}
+.macbookAir h3{
+    color: rgb(76, 76, 76);
+}
+.macbookAir h4{
+    font-size: 25px;
+}
+
+.learnOrder a{
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #06c;
+}
+
+.learnOrderDark a{
+    padding: 10px 20px 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #2997ff;
+}
+
+.iphonePro{
+    background-image: url(./media/hero_iphone14pro_spring.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+}
+
+.iphonePro h2{
+    font-size: 50px;
+}
+
+
+
+
+/* Media Query */
+
+@media screen and (max-width:576px) {
+    .itemNav p{ 
+        text-align: center;
+    }
+    
+}
