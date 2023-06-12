@@ -7,7 +7,7 @@
     <!-- CDN Icon -->
     <script src="https://kit.fontawesome.com/4b868b45f2.js" crossorigin="anonymous"></script>
     <!-- CDN Font -->
-    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/236987803794b916d95e7fd41ed4fee0?family=SF+Pro+Text" rel="stylesheet" type="text/css"/>
     <!-- CDN Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- CSS -->
@@ -15,52 +15,61 @@
 </head>
 
 <body>
-    <!-- Navbar -->
+
+    <!-- Alert -->
+
+    <div class="container-fluid alert alert-dismissible border-0 m-0 p-0 containerLingua" id="liveAlertPlaceholder" role="alert">
+        <div class="row alertLingua align-items-center">
+            <div class="col-12 col-md-6 d-flex justify-content-end">
+                <p class="m-0 testoPaese">Scegli il Paese o territorio in cui sei per vedere i contenuti locali e acquistare online.</p>
+            </div>
+            <div class="col-12 col-md-6 d-flex">
+                <select class="form-select text-secondary mx-3 bgLingua text-white" aria-label="Default select example">
+                    <option selected> Italia </option>
+                    <option value="1">Altro Paese o territorio</option>
+                </select>
+                <button type="button" class="btn">Continua</button> 
+            </div>
+        </div>
+        <span class="">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">X</button>
+        </span>
+    </div>
+
     
-    <nav class="d-flex justify-content-center flex-wrap m-auto">
-        <div class="itemNav">
-            <p>Scegli il Paese o territorio in cui sei per vedere i contenuti locali e acquistare online.
-        </div>
-            
-        <div class="itemNav formSelect ">
-            <select class="form-select text-secondary" aria-label="Default select example">
-                <option selected> Italia </option>
-                <option value="1">Altro Paese o territorio</option>
-            </select>    
-        </div>
-            
-        <div class="itemNav">
-            <button type="button" class="btn">Continua</button> 
-        </div>
-            
-        <div class="container-fluid p-0">
-            <ul class="secondaNav bg-light d-flex justify-content-center flex-wrap itemNav m-0">
-                <a href="#"><li><i class="fa-brands fa-apple fs-5"></i></li></a>
-                <a href=""><li>Store</li></a>
-                <a href=""><li>Mac</li></a>
-                <a href=""><li>iPad</li></a>
-                <a href=""><li>iPhone</li></a>
-                <a href=""><li>Watch</li></a>
-                <a href=""><li>Vision</li></a>
-                <a href=""><li>AirPods</li></a>
-                <a href=""><li>TV & Home</li></a>
-                <a href=""><li>Entertainment</li></a>
-                <a href=""><li>Accessories</li></a>
-                <a href=""><li>Support</li></a>
-                <a href=""><li><i class="fa-solid fa-magnifying-glass"></i></li></a>
-                <a href=""><li><i class="fa-solid fa-bag-shopping"></i></li></a>   
-            </ul>
-        </div>
-    </nav>
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid navMobile p-0">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><p>___ <br> ___</p></span>
+                </button>
+              <div class="collapse container-fluid navbar-collapse navbarCustom " id="navbarSupportedContent">
+                <ul class="navbar-nav ">
+                    <a href="#"><li><i class="fa-brands fa-apple fs-5 "></i></li></a>
+                    <a href=""><li>Store</li></a>
+                    <a href=""><li>Mac</li></a>
+                    <a href=""><li>iPad</li></a>
+                    <a href=""><li>iPhone</li></a>
+                    <a href=""><li>Watch</li></a>
+                    <a href=""><li>Vision</li></a>
+                    <a href=""><li>AirPods</li></a>
+                    <a href=""><li>TV & Home</li></a>
+                    <a href=""><li>Entertainment</li></a>
+                    <a href=""><li>Accessories</li></a>
+                    <a href=""><li>Support</li></a>
+                    <a href=""><li><i class="fa-solid fa-magnifying-glass "></i></li></a>
+                    <a href=""><li><i class="fa-solid fa-bag-shopping "></i></li></a> 
+              </div>
+            </div>
+          </nav>
+    <!-- Navbar -->
         
     <!-- Header -->
-
-    <p class="pt-3 d-flex justify-content-center text-black">Save on Mac or iPad with education pricing. Plus get a gift card up to $150.<a href="">Shop now</p></a>
-
-    <header class="vision d-flex justify-content-end align-items-center text-center flex-column pb-5">
+    
+    <p class="text-center divide">Save on Mac or iPad with education pricing. Plus get a gift card up to $150.<a href="">Shop now</a></p>
+    <header class="vision d-flex justify-content-end align-items-center text-center flex-column">
         <img src="./media/logo_vision_pro.png" alt="logo_vision_pro">
-        <h1 class="text-black">Welcome to the era of spatial computing</h1>
-        <h2 class="fs-4 ">Available early next year in the U.S.</h2>
+        <h1 class="text-black titolo">Welcome to the era of spatial computing</h1>
+        <h2 class="fs-4 sottotitolo">Available early next year in the U.S.</h2>
         <a href="">Learn more ></a>
     </header>
 
@@ -128,7 +137,7 @@
                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 p-0">
+                <div class="col-12 col-md-6 p-0 ">
                     <div class="watch m-2 pt-2"> 
                         <img class="pt-5 pb-4" src="./media/logo_watch_series8.png" alt="logo_watch_series8">
                         <h3 class="fs-4 text-white">Transformed by Apple silicon.</h3> 
@@ -144,7 +153,7 @@
                 <div class="col-12 col-md-6 p-0">
                     <div class="fitness m-2 pt-2 align-items-center d-flex flex-column"> 
                         <img class="pt-5 pb-4" src="./media/logo_fitness.png" alt="logo_fitness">
-                        <h3 class="fs-5 w-25">From HIIT to Yoga, there's something for everyone.</h3>  
+                        <h3 class="fs-5 ">From HIIT to Yoga, there's something for everyone.</h3>  
                         <div class="pt-1 learnOrder">
                             <a href="">Learn more ></a>
                             <a href="">Try it free ></a>
@@ -154,7 +163,7 @@
                 <div class="col-12 col-md-6 p-0">
                     <div class="cardApple m-2 pt-2 align-items-center d-flex flex-column"> 
                         <img class="pt-5 pb-4" src="./media/logo_card.png" alt="logo_card">
-                        <h3 class="fs-5 w-25">Get up to 3% Daily Cash back with every purchase.</h3>  
+                        <h3 class="fs-5">Get up to 3% Daily Cash back with every purchase.</h3>  
                         <div class="pt-1 learnOrder">
                             <a href="">Learn more ></a>
                             <a href="">Apply now ></a>
@@ -314,7 +323,7 @@
                 <address class="row moreWays">
                     <p>More ways to shop: Find an Apple Store or other retailer near you. Or call 1-800-MY-APPLE.</p>
                     <hr>
-                    <div class="copyright d-flex flex-row justify-content-between ">
+                    <div class="copyright d-flex flex-row justify-content-between flex-wrap ">
                         <p>Copyright © 2023 Apple Inc. All rights reserved.</p>
                         <div class="flex-row d-flex privacyPolicy">
                             
@@ -332,7 +341,7 @@
                 </address>
             </div>
         </div>
-    </footer>
+    </footer> 
         
 
         

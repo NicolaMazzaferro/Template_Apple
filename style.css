@@ -1,54 +1,92 @@
 body{
-    font-size: smaller;
-    font-family: 'Larsseit', sans-serif;
-}
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "SF Pro Text";
+    color: #1d1d1f;
+   }
 
-nav{
-    background-color: #ededed;
-}
-
-.itemNav{
+.alertLingua{
+    background-color: rgb(40, 40, 40);
+    color: #ededed;
     height: 70px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-right: 20px;
-    
 }
 
-.itemNav p{
-    
-    text-align: start;
-    margin-top: 20px;
+.containerLingua{
+    position: fixed;
+    top: 0;
 }
 
-.formSelect{
-    width: 380px;
-    padding-left: 40px;
+.btn-close{
+    color: #ededed;
+    background-image: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.btn-close:hover{
+    color: white;
+}
+
+.testoPaese{
+    width: 500px;
 }
 
 .form-select{
     border: none;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.15);
+    width: 380px;
+    background-color: rgb(69, 69, 69);
+    font-size: 18px;
 }
 
 .btn{
-    background-color: black;
-    color: white;
-    width: 100px;
+    background-color: #ededed;
+    color: black;
 }
 
-.secondaNav{
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.870);
+    color: black;
+}
+
+.navbarCustom{
     list-style: none;
-    height: 45px;
+    justify-content: center;
+    background-color: rgb(59, 59, 59,0.95);
+    padding: 20px 0px 10px 0px; 
+    position: fixed;
+    top: 70px;
+    
+
 }
 
-.secondaNav a, a:visited{
-    color: rgb(0, 0, 0);
+.navbarCustom a, a:visited{
+    color: #ededed;
     text-decoration: none;
-    padding-left: 40px;
-    font-size: 13px;
+    padding-left: 30px;
+    font-size: 13px;    
 }
+
+.navMobile{
+    display: flex!important;
+    align-items: flex-end!important;
+    justify-content: flex-end!important;
+}
+
+.divide{
+    margin-top: 123px;
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.divide a{
+    color: #06c;
+}
+
 
 .vision{
     background-image: url(./media/hero_apple_vision_pro.jpg);
@@ -63,8 +101,8 @@ nav{
 
 .vision a{
     text-decoration: none;
-    color: #06c;
     font-size: 20px;
+    color: #06c;
 }
 
 .vision h1{
@@ -190,23 +228,169 @@ h3{
     color: rgb(86, 86, 86);
 }
 
-.privacyPolicy{
-    padding-right: 300px;
-}
 
 .privacyPolicy p{
-    padding-right: 10px;
+    padding-right: 5px;
     border-right: 1px solid rgb(86, 86, 86);
-    padding-left: 10px;
+    padding-left: 5px;
     color: rgb(86, 86, 86);
 }
 
 
 /* Media Query */
 
-@media screen and (max-width:576px) {
-    .itemNav p{ 
-        text-align: center;
+@media screen and (max-width:993px) {
+
+    .alertLingua{
+        background-color: rgb(44, 44, 44);
+        color: #ededed;
+        height: 130px;
+    }
+
+    .testoPaese{
+        justify-content: start;
+        padding-left: 30px;
+    }
+    
+    .form-select{
+        border: none;
+        width: 200px;
+        padding-left: 40px;
+        background-color: rgb(69, 69, 69);
+        font-size: 18px;
+    }
+    
+    .btn{
+        background-color: #ededed;
+        color: black;
+        width: 100px;
+    }
+    
+    .btn:hover{
+        background-color: rgba(255, 255, 255, 0.870);
+        color: black;
+    }
+
+    .navMobile{
+        position: fixed;
+        padding-right: 40px!important;
+        top: 130px!important;
+        border: 0!important;
+        background-color: rgb(40, 40, 40, 0.98);;
+        height: 50px;
+        margin-top: 0!important;
+    }
+
+    .collapsing{
+        background-color: rgb(255, 255, 255);
+        margin-top: 20px;
+    }
+    
+    .navbarCustom li i{
+        display: none;
+    }
+    
+    .navbarCustom a{
+        font-size: 45px;
+        color: #ededed;
+    }
+
+    .navbarCustom{
+        background-color: rgb(40, 40, 40);
+        margin-top: 130px;
+        padding-left: 30px;
+        position: fixed;
+        height: 100vh;
+        top: 0;
+        width: 100%;
+        margin-right: -40px;
+    }
+
+    .navbar-toggler-icon{
+        position: fixed;
+        border: 0;
+        text-shadow: none;
+        background-image: none;
+        color: #ededed;
+        top: 120px;
+        z-index: 1;
+    }
+
+    .navbar-toggler{
+        border: none; 
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    .divide{
+        margin-top: 210px;
+    }
+
+    .macbookAir{
+        height: 45vh;
     }
     
 }
+
+@media screen and (max-width:580px) {
+
+    header img{
+        height: 60px;
+    }
+
+    .titolo{
+        font-size: 18px!important;
+    }
+
+    .sottotitolo{
+        font-size: 16px!important;
+    }
+
+    .macbookAir{
+        margin: 10px;
+        height: 80vh;
+    }
+
+    .macbookAir h2{
+        margin-top: 0px!important;
+    }
+
+    .macPro h2{
+        margin-top: 0!important;
+
+    }
+
+    .learnOrder{
+        padding-top: 0!important;
+
+    }
+    .watch img{
+        padding: 5px!important;
+    }
+
+    .fitness img{
+        padding: 10px!important;
+    }
+
+    .cardApple img{
+        padding: 10px!important;
+    }
+
+    
+}
+
+@media screen and (max-height:1070px) and (max-width:580px){
+
+    .navbarCustom a{
+        font-size: 30px;
+    }
+
+    .divide{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
